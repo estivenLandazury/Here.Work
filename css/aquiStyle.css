@@ -1,0 +1,66 @@
+/*Logo menú */
+body{
+overflow-x: hidden;
+}
+.logoMenu img {
+    width: 100px;
+    height: auto;
+    position: absolute;
+}
+
+.logoMenuDos img {
+    width: 100px;
+    height: auto;
+    padding-top: 3%;
+}
+
+.homeImg {
+    width: 90%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+/*Boton de decarga*/
+.btn_play {
+    margin-bottom: 5%;
+    max-width: 45%;
+    height: auto;
+}
+
+.check li:active {
+    color: white;
+}
+
+.img-celular {
+    max-height: 500px;
+}
+
+.bg-grad {
+    background: linear-gradient(to bottom right, #0BA2FF, #006DAA);
+}
+
+.tituloBlanco h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 400;
+    font-weight: 900;
+}
+header{
+    -webkit-box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
+    box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 991.98px) {
+    .espacio {
+        padding-top: 5%;
+    }
+}
+
+@media (max-width: 991.98px) and (min-width: 768px ) {
+    .btn_play {
+        margin-bottom: 5%;
+        max-width: 25%;
+        height: auto;
+        
+    }
+}
