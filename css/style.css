@@ -119,16 +119,36 @@ ol {
 }
 
 .leftFooter {
-    margin-left: 4%;
+    margin-left: -6%;
 }
 
 .right_footer {
-    margin-top: 7%;
+    margin-top: 11%;
 }
 
 .text_footer {
     color: white;
-    margin-top: 1%;
+    margin-top: 3%;
+}
+
+.item {
+    right: -29%;
+}
+
+img.img-body {
+    width: 100%;
+}
+
+ul.item_lis {
+    list-style: none;
+    text-align: left;
+    width: 41%;
+    color: white;
+    margin-left: 29%;
+}
+
+li.lo {
+    list-style: none;
 }
 
 hr.line_horizontal {
@@ -138,7 +158,7 @@ hr.line_horizontal {
 }
 
 p.parrafo {
-    width: 70%;
+    width: 59%;
     font-size: 86%;
     margin-left: 3%;
     text-align: justify;
@@ -152,7 +172,7 @@ img.AquiWork_footer {
 }
 
 hr.line_horizontal {
-    width: 20%;
+    width: 61%;
 }
 
 h4.Contactanos {
@@ -198,13 +218,26 @@ h1.TitleAqui {
     /* margin-top: -16%; */
 }
 
+ul.logos {
+    /* background: red; */
+    display: flex;
+    width: 41%;
+    margin-left: 28%;
+}
+
 img.logo {
-    width: 87%;
+    width: 67%;
 }
 
 img.logo1 {
-    width: 87%;
+    width: 67%;
     background: white;
+}
+
+h5.informatio {
+    color: white;
+    text-align: left;
+    margin-left: 2%;
 }
 
 ol.logos {
