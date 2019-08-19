@@ -71,18 +71,6 @@ p.Paragraf_contac {
     font-weight: bold;
 }
 
-select {
-    margin: 0;
-    font-size: inherit;
-    line-height: inherit;
-    width: 44%;
-    margin-left: -21%;
-    /* border-top: none; */
-    border: none;
-    font-weight: bold;
-    color: #696262;
-}
-
 div#information_context {
     /* text-align: center; */
     /* align-content: center; */
@@ -120,10 +108,11 @@ ol {
 
 .leftFooter {
     margin-left: -6%;
+    margin-top: 11%;
 }
 
 .right_footer {
-    margin-top: 11%;
+    margin-top: 22%;
 }
 
 .text_footer {
@@ -175,11 +164,54 @@ hr.line_horizontal {
     width: 61%;
 }
 
+.cont {
+    text-align: left;
+}
+
+select#paises {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-left: none;
+}
+
+input#number {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.contact {
+    background: rgb(252, 252, 252);
+    border-radius: 11%;
+    width: 46%;
+    margin-top: -1%;
+    /* height: 35%; */
+    margin-left: 25%;
+    /* margin-top: -22%; */
+    position: absolute;
+}
+
+h1.Interes {
+    font-size: 178%;
+    font-weight: bold;
+    color: #5a5757;
+}
+
+button#contacta {
+    margin-left: 20%;
+}
+
+h3.text_about {
+    font-size: 113%;
+    font-weight: bold;
+}
+
 h4.Contactanos {
     font-size: 86%;
     font-weight: bold;
     color: white;
-    margin-left: -79%;
+    margin-left: 2%;
 }
 
 hr {
@@ -383,11 +415,7 @@ h5,
 
 .form-control {
     height: 43px;
-    border-radius: -11px;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    border-top: none;
-    border-left: none;
-    border-right: none;
 }
 
 .form-control:active,
