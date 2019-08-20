@@ -16,6 +16,20 @@ div#imagenApp {
     /* height: 33%; */
 }
 
+a.nav-link.btn.btn-link.nav-link {
+    text-align: left;
+}
+
+h1.section-title {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.img_inova {
+    text-align: center;
+}
+
 
 /** Sesción proceso de innovación*/
 
@@ -2275,7 +2289,7 @@ h5,
 .testimonial {
     max-width: 800px;
     margin: 0 auto !important;
-    text-align: center;
+    display: flex;
 }
 
 .testimonial blockquote {
@@ -2885,5 +2899,124 @@ h5,
 @media (max-width: 991.98px) {
     .main-menu {
         display: none !important;
+    }
+}
+
+@media screen and (max-width: 281px) {
+    .contact {
+        display: none;
+    }
+    p.tex-bene {
+        text-align: justify;
+        font-size: 74% !important;
+    }
+    .img_inova {
+        text-align: center;
+    }
+    p.pargraf {
+        color: white;
+        text-align: justify;
+        font-size: 91%;
+    }
+    .text1 {
+        text-align: center;
+    }
+    img.AquiWork_footer {
+        width: 55%;
+        margin-left: 1%;
+    }
+    p.parrafo {
+        width: 90%;
+        margin: 7%;
+    }
+    h5.informatio {
+        font-size: 81%;
+    }
+    .cont {
+        margin: 5%;
+        font-size: 88%;
+    }
+    ul.item_lis {
+        list-style: none;
+        text-align: left;
+        width: 84% !important;
+        color: white;
+        margin-left: -14%;
+    }
+    ul.logos {
+        /* background: red; */
+        display: flex;
+        width: 62%;
+        margin-left: 9%;
+    }
+    h1.title {
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+    .testimonial {
+        max-width: 800px;
+        margin: 0 auto !important;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .contact {
+        display: none;
+    }
+    p.pargraf {
+        color: white;
+        text-align: justify;
+        font-size: 91%;
+    }
+    .text1 {
+        text-align: center;
+    }
+    img.AquiWork_footer {
+        width: 55%;
+        margin-left: 1%;
+    }
+    p.parrafo {
+        width: 90%;
+        margin: 7%;
+    }
+    .cont {
+        margin: 5%;
+        font-size: 88%;
+    }
+    ul.item_lis {
+        list-style: none;
+        text-align: left;
+        width: 84% !important;
+        color: white;
+        margin-left: -10%;
+    }
+    hr.line_horizontal {
+        width: 103%;
+    }
+    ul.logos {
+        /* background: red; */
+        display: flex;
+        width: 62%;
+        margin-left: 9%;
+    }
+    .testimonial {
+        max-width: 800px;
+        margin: 0 auto !important;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contact {
+        display: none;
+    }
+    ul.item_lis {
+        list-style: none;
+        text-align: left;
+        width: 84% !important;
+        color: white;
+        margin-left: -10%;
     }
 }
