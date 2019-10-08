@@ -15,6 +15,11 @@ div#imagenApp {
     /* height: 33%; */
 }
 
+p.Paragraf {
+    color: white;
+    margin-top: 19%;
+}
+
 a.nav-link.btn.btn-link.nav-link {
     text-align: left;
 }
@@ -42,10 +47,6 @@ h1.section-title1 {
 }
 
 /** ENd Sesción proceso de innovación*/
-
-.text {
-    margin-top: 15%;
-}
 
 h1.title {
     color: white;
@@ -436,10 +437,6 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 .form-control:hover, .form-control:active, .form-control:focus {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
-}
-
-.site-section {
-    padding: 2.5em 0;
 }
 
 @media (min-width: 768px) {
@@ -1130,8 +1127,8 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .site-blocks-cover, .site-blocks-cover>.container>.row {
-    min-height: 750px;
-    height: calc(100vh);
+    min-height: 630px;
+    /* height: calc(100vh); */
 }
 
 .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover>.container>.row {
