@@ -439,6 +439,10 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
     box-shadow: none !important;
 }
 
+.site-section {
+    padding: 2.5em 0;
+}
+
 @media (min-width: 768px) {
     .site-section {
         padding: 5em 0;
@@ -1127,8 +1131,8 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .site-blocks-cover, .site-blocks-cover>.container>.row {
-    min-height: 630px;
-    /* height: calc(100vh); */
+    min-height: 750px;
+    height: calc(100vh);
 }
 
 .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover>.container>.row {
